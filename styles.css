@@ -20,6 +20,7 @@
 
 .navbar_container {
     display: flex; 
+    width: device-width;
     height: 80px; 
     z-index: 1; 
     max-width: 100%;
@@ -64,7 +65,7 @@
 .box {
     position: relative; 
     width: device-width;
-    height: 912px;
+    height: 1720px;
     background:linear-gradient(#57B4F7, #FFFFFF);
 }
 
@@ -73,7 +74,7 @@
     top: 0;
     left: 0;
     width: 50px;
-    height: 1100px; 
+    height: 1824px; 
     background: #CFFF0B;
 }
 
@@ -82,7 +83,7 @@
     top: 0;
     right: 0;
     width: 50px;
-    height: 1100px; 
+    height: 1824px; 
     background: #CFFF0B;
 }
 
@@ -91,4 +92,116 @@
     width: device-width;
     height: 100px;
     background: #CFFF0B;
+}
+
+.uppersquaremain {
+    position: relative;
+    bottom: 1700px;
+    left: 400px;
+    width: 820px;
+    height: 500px;
+    background: #b20bff;
+}
+.uppersquare1 {
+    position: relative;
+    bottom: 2230px;
+    left: 300px;
+    width: 50px;
+    height: 50px;
+    background: #490cff;
+}
+.uppersquare2 {
+    position: relative;
+    bottom: 2140px;
+    left: 300px;
+    width: 200px;
+    height: 100px;
+    background: #490cff;
+}
+
+.uppersquare3 {
+    position: relative;
+    bottom: 2000px;
+    left: 1180px;
+    width: 100px;
+    height: 200px;
+    background: #490cff;
+}
+
+.uppersquare4 {
+    position: relative;
+    bottom: 2620px;
+    left: 1080px;
+    width: 130px;
+    height: 50px;
+    background: #ff0000;
+}
+.uppersquare5 {
+    position: relative;
+    bottom: 2100px;
+    left: 450px;
+    width: 50px;
+    height: 50px;
+    background: #e1ff8d;
+}
+.uppersquare6 {
+    position: relative;
+    bottom: 2680px;
+    left: 550px;
+    width: 170px;
+    height: 30px;
+    background: #e1ff8d;
+}
+.lowersquaremain {
+    position: absolute;
+    bottom: -500px;
+    left: 0px;
+    width: 820px;
+    height: 500px;
+    background: #b20bff;
+}
+
+.lowersquare1 {
+    position: absolute;
+    bottom: -550px;
+    left: 400px;
+    width: 210px;
+    height: 60px;
+    background: #bf5fff;
+}
+
+.lowersquare2 {
+    position: absolute;
+    bottom: -420px;
+    left: 800px;
+    width: 80px;
+    height: 160px;
+    background: #bf5fff;
+}
+
+.lowersquare3 {
+    position: absolute;
+    bottom: -50px;
+    left: 670px;
+    width: 90px;
+    height: 90px;
+    background: #bf5fff;
+}
+
+.lowersquare4 {
+    position: absolute;
+    bottom: -400px;
+    left: 920px;
+    width: 30px;
+    height: 80px;
+    background: #bf5fff;
+}
+
+.lowersquare5 {
+    position: absolute;
+    bottom: -500px;
+    left: 920px;
+    width: 120px;
+    height: 40px;
+    background: #bf5fff;
 }
