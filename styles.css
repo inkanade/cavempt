@@ -284,3 +284,343 @@
     text-decoration: none; 
     cursor: pointer; 
   }
+
+  .allproducts {
+    color: #000000;
+    left: 500px;
+    position: absolute;
+    top: 120px;
+    font-weight: 1000; 
+    font-size: 3.5rem;
+    width: 490px; 
+    height: 200%; 
+  }
+  .productsquare1 {
+    position: absolute;
+    background: #CFFF0B;
+    height: 50px; 
+    width: 50px; 
+    top: 150px;
+    left: 300px;
+  }
+  .productsquare2 {
+    position: absolute;
+    background: #CFFF0B;
+    height: 30px; 
+    width: 100px; 
+    top: 150px;
+    left: 100px;
+  }
+  .productsquare3 {
+    position: absolute;
+    background: #CFFF0B;
+    height: 50px; 
+    width: 70px; 
+    top: 250px;
+    left: 30px;
+  }
+  .productsquare4 {
+    position: absolute;
+    background: #CFFF0B;
+    height: 130px; 
+    width: 50px; 
+    top: 450px;
+    left: 30px;
+  }
+  .productsquare5 {
+    position: absolute;
+    background: #CFFF0B;
+    height: 60px; 
+    width: 70px; 
+    top: 150px;
+    left: 1270px;
+  }
+  .productsquare6 {
+    position: absolute;
+    background: #CFFF0B;
+    height: 70px; 
+    width: 110px; 
+    top: 80px;
+    left: 1220px;
+  }
+  .productsquare7 {
+    position: absolute;
+    background: #CFFF0B;
+    height: 50px; 
+    width: 50px; 
+    top: 150px;
+    left: 300px;
+  }
+  
+  .product1 {
+    position: absolute;
+    top: 250px;        
+    left: 120px;       
+    width: 250px;      
+    height: 250px;
+    border-radius: 10px;
+    z-index: 10;   
+  }
+  .product2 {
+    position: absolute;
+    top: 250px;        
+    left: 440px;       
+    width: 250px;      
+    height: 250px;
+    border-radius: 10px;
+    z-index: 10;   
+  }
+  .product3 {
+    position: absolute;
+    top: 250px;        
+    left: 740px;       
+    width: 250px;      
+    height: 250px;
+    border-radius: 10px;
+    z-index: 10;   
+  }
+  .product4 {
+    position: absolute;
+    top: 250px;        
+    left: 1040px;       
+    width: 250px;      
+    height: 250px;
+    border-radius: 10px;
+    z-index: 10;   
+  }
+  .product5 {
+    position: absolute;
+    top: 650px;        
+    left: 120px;       
+    width: 250px;      
+    height: 250px;
+    border-radius: 10px;
+    z-index: 10;   
+  }
+  .product6 {
+    position: absolute;
+    top: 650px;        
+    left: 440px;       
+    width: 250px;      
+    height: 250px;
+    border-radius: 10px;
+    z-index: 10;   
+  }
+  .product7 {
+    position: absolute;
+    top: 650px;        
+    left: 740px;       
+    width: 250px;      
+    height: 250px;
+    border-radius: 10px;
+    z-index: 10;   
+  }
+  .product8 {
+    position: absolute;
+    top: 650px;        
+    left: 1040px;       
+    width: 250px;      
+    height: 250px;
+    border-radius: 10px;
+    z-index: 10;   
+  }
+  .product9 {
+    position: absolute;
+    top: 1050px;        
+    left: 120px;       
+    width: 250px;      
+    height: 250px;
+    border-radius: 10px;
+    z-index: 10;   
+  }
+  .product1name {
+    color: #000000;
+    left: 140px;
+    position: absolute;
+    top: 500px;
+    font-weight: 400; 
+    font-size: 1.4rem;
+    width: 490px;  
+    text-decoration: none;
+  }
+  .product1price {
+    color: #000000;
+    left: 205px;
+    position: absolute;
+    top: 530px;
+    font-weight: 1000; 
+    font-size: 1.5rem;
+    width: 490px; 
+    height: 100%; 
+    text-decoration: none;
+  }
+  .product2name {
+    color: #000000;
+    left: 505px;
+    position: absolute;
+    top: 500px;
+    font-weight: 400; 
+    font-size: 1.4rem;
+    width: 490px;  
+    text-decoration: none;
+  }
+  .product2price {
+    color: #000000;
+    left: 524px;
+    position: absolute;
+    top: 530px;
+    font-weight: 1000; 
+    font-size: 1.5rem;
+    width: 490px; 
+    height: 100%; 
+    text-decoration: none;
+  }
+  .product3name {
+    color: #000000;
+    left: 775px;
+    position: absolute;
+    top: 500px;
+    font-weight: 400; 
+    font-size: 1.4rem;
+    width: 490px;  
+    text-decoration: none;
+  }
+  .product3price {
+    color: #000000;
+    left: 829px;
+    position: absolute;
+    top: 530px;
+    font-weight: 1000; 
+    font-size: 1.5rem;
+    width: 490px; 
+    height: 100%; 
+    text-decoration: none;
+  }
+  .product4name {
+    color: #000000;
+    left: 1120px;
+    position: absolute;
+    top: 500px;
+    font-weight: 400; 
+    font-size: 1.4rem;
+    width: 490px;  
+    text-decoration: none;
+  }
+  .product4price {
+    color: #000000;
+    left: 1135px;
+    position: absolute;
+    top: 530px;
+    font-weight: 1000; 
+    font-size: 1.5rem;
+    width: 490px; 
+    height: 100%; 
+    text-decoration: none;
+  }
+  .product5name {
+    color: #000000;
+    left: 115px;
+    position: absolute;
+    top: 920px;
+    font-weight: 400; 
+    font-size: 1.4rem;
+    width: 490px;  
+    text-decoration: none;
+  }
+  .product5price {
+    color: #000000;
+    left: 205px;
+    position: absolute;
+    top: 950px;
+    font-weight: 1000; 
+    font-size: 1.5rem;
+    width: 490px; 
+    height: 100%; 
+    text-decoration: none;
+  }
+  .product6name {
+    color: #000000;
+    left: 490px;
+    position: absolute;
+    top: 920px;
+    font-weight: 400; 
+    font-size: 1.4rem;
+    width: 490px;  
+    text-decoration: none;
+  }
+  .product6price {
+    color: #000000;
+    left: 524px;
+    position: absolute;
+    top: 950px;
+    font-weight: 1000; 
+    font-size: 1.5rem;
+    width: 490px; 
+    height: 100%; 
+    text-decoration: none;
+  }
+  .product7name {
+    color: #000000;
+    left: 815px;
+    position: absolute;
+    top: 920px;
+    font-weight: 400; 
+    font-size: 1.4rem;
+    width: 490px;  
+    text-decoration: none;
+  }
+  .product7price {
+    color: #000000;
+    left: 830px;
+    position: absolute;
+    top: 950px;
+    font-weight: 1000; 
+    font-size: 1.5rem;
+    width: 490px; 
+    height: 100%; 
+    text-decoration: none;
+  }
+  .product8name {
+    color: #000000;
+    left: 1070px;
+    position: absolute;
+    top: 920px;
+    font-weight: 400; 
+    font-size: 1.4rem;
+    width: 490px;  
+    text-decoration: none;
+  }
+  .product8price {
+    color: #000000;
+    left: 1128px;
+    position: absolute;
+    top: 950px;
+    font-weight: 1000; 
+    font-size: 1.5rem;
+    width: 490px; 
+    height: 100%; 
+    text-decoration: none;
+  }
+  .product9name {
+    color: #000000;
+    left: 145px;
+    position: absolute;
+    top: 1330px;
+    font-weight: 400; 
+    font-size: 1.4rem;
+    width: 490px;  
+    text-decoration: none;
+  }
+  .product9price {
+    color: #000000;
+    left: 205px;
+    position: absolute;
+    top: 1360px;
+    font-weight: 1000; 
+    font-size: 1.5rem;
+    width: 490px; 
+    height: 100%; 
+    text-decoration: none;
+  }
+
+ 
