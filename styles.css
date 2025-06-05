@@ -622,5 +622,207 @@
     height: 100%; 
     text-decoration: none;
   }
-
- 
+  .product1a {
+    position: absolute;
+    top: 250px;        
+    left: 390px;       
+    width: 600px;      
+    height: 600px;
+    border-radius: 10px;
+    z-index: 10;   
+  }
+  .product1aa {
+    position: absolute;
+    top: 300px;        
+    left: 1050px;       
+    width: 130px;      
+    height: 130px;
+    border-radius: 10px;
+    z-index: 10;   
+  }
+  .product1b {
+    position: absolute;
+    top: 450px;        
+    left: 1050px;       
+    width: 130px;      
+    height: 130px;
+    border-radius: 10px;
+    z-index: 10;   
+  }
+  .product1c {
+    position: absolute;
+    top: 640px;        
+    left: 1050px;       
+    width: 130px;      
+    height: 130px;
+    border-radius: 10px;
+    z-index: 10;   
+  }
+  .product1name1 {
+    color: #000000;
+    left: 370px;
+    position: absolute;
+    top: 900px;
+    font-weight: 00; 
+    font-size: 2.5rem;
+    width: 490px; 
+    height: 200%; 
+    white-space: nowrap;
+  }
+  .product1price1 {
+    color: #000000;
+    left: 640px;
+    position: absolute;
+    top: 950px;
+    font-weight: 800; 
+    font-size: 2rem;
+    width: 490px; 
+    height: 200%; 
+  }
+  .sizeSsquare {
+    position: absolute;
+    background: #ffffff;
+    height: 60px; 
+    width: 60px; 
+    top: 1100px;
+    left: 450px;
+  }
+  .sizeMsquare {
+    position: absolute;
+    background: #ffffff;
+    height: 60px; 
+    width: 60px; 
+    top: 1100px;
+    left: 540px;
+  }
+  .sizeLsquare {
+    position: absolute;
+    background: #ffffff;
+    height: 60px; 
+    width: 60px; 
+    top: 1100px;
+    left: 630px;
+  }
+  .product1size {
+    color: #000000;
+    left: 450px;
+    position: absolute;
+    top: 1050px; 
+    font-size: 2rem;
+    width: 490px; 
+  }
+  .sizeS {
+    color: #000000;
+    left: 467px;
+    position: absolute;
+    top: 1115px; 
+    font-weight: 600;
+    font-size: 2rem;
+    width: 490px; 
+  }
+  .sizeM {
+    color: #000000;
+    left: 555px;
+    position: absolute;
+    top: 1115px; 
+    font-weight: 600;
+    font-size: 2rem;
+    width: 490px; 
+  }
+  .sizeL {
+    color: #000000;
+    left: 650px;
+    position: absolute;
+    top: 1115px; 
+    font-weight: 600;
+    font-size: 2rem;
+    width: 490px; 
+  }
+  .description1 {
+    color: #000000;
+    left: 90px;
+    position: absolute;
+    top: 430px; 
+    font-size: 2.5rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .description1a {
+    color: #000000;
+    left: 90px;
+    position: absolute;
+    top: 480px; 
+    font-size: 1.6rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .sizinga {
+    color: #000000;
+    left: 90px;
+    position: absolute;
+    top: 700px; 
+    font-size: 1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .cartbutton {
+    position: absolute;
+    background: #CFFF0B;
+    height: 60px; 
+    width: 420px; 
+    top: 1220px;
+    left: 490px;
+  }
+  .addtocart {
+    color: #000000;
+    left: 590px;
+    position: absolute;
+    top: 1230px; 
+    font-weight: 800;
+    font-size: 1.75rem;
+    width: 490px; 
+  }
+  .product2a {
+    position: absolute;
+    top: 250px;        
+    left: 390px;       
+    width: 600px;      
+    height: 600px;
+    border-radius: 10px;
+    z-index: 10;   
+  }
+  .product2aa {
+    position: absolute;
+    top: 300px;        
+    left: 1050px;       
+    width: 130px;      
+    height: 130px;
+    border-radius: 10px;
+    z-index: 10;   
+  }
+  .product2b {
+    position: absolute;
+    top: 450px;        
+    left: 1050px;       
+    width: 130px;      
+    height: 130px;
+    border-radius: 10px;
+    z-index: 10;   
+  }
+  .product2c {
+    position: absolute;
+    top: 640px;        
+    left: 1050px;       
+    width: 130px;      
+    height: 130px;
+    border-radius: 10px;
+    z-index: 10;   
+  }
+  .product2name2 {
+    color: #000000;
+    left: 450px;
+    position: absolute;
+    top: 900px;
+    font-weight: 00; 
+    font-size: 2.5rem;
+    width: 490px; 
+    height: 200%; 
+    white-space: nowrap;
+  }
