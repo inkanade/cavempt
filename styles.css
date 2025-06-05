@@ -1,5 +1,5 @@
 * {
-    box-sixing: border-box;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Kumbh Sans', sans-serif; 
@@ -7,7 +7,8 @@
 
 .navbar {
     background: #CFFF0B;
-    height: 80px;
+    height: 100px;
+    width: device-width;
     display: flex;
     justify-content: center; 
     align-items: center; 
@@ -19,28 +20,12 @@
 
 .navbar_container {
     display: flex; 
-    justify-content: space-between;
     height: 80px; 
     z-index: 1; 
-    width: 100%;
+    max-width: 100%;
     margin: 0 auto;
     padding: 0 50px;
 
-}
-
-.navbar__logo {
-    background-color: #ff8177;
-    background-image: linear-graadient(to top, 3ff0844 0%, #ffb199 100%); 
-    background-size: 100%; 
-    -webkit-background-clip: text; 
-    -moz-background-clip: text; 
-    -webkit-text-fill-color: transparent; 
-    -moz-text-fill-color: transparent; 
-    display: flex; 
-    align-items: center; 
-    cursor: pointer; 
-    text-decoration: none; 
-    font-size: 2rem; 
 }
 
 .navbar__menu {
@@ -54,19 +39,56 @@
 }
 
 .navbar__links {
-    color: #fff;
+    color: #000000;
     display: flex; 
     align-items: center; 
     justify-content: center; 
-    width: 125px; 
+    width: 130px; 
     text-decoration: none; 
     height: 100%; 
+    font-weight: 1000; 
 }
 
-.navbar__btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 1rem;
-    width: 100%; 
+.navbar__logo {
+    color: #000000;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 490px; 
+    text-decoration: none; 
+    height: 100%; 
+    font-weight: 1000; 
+    font-size: 4rem;
+}
+
+.box {
+    position: relative; 
+    width: device-width;
+    height: 912px;
+    background:linear-gradient(#57B4F7, #FFFFFF);
+}
+
+.sideboxleft {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 1100px; 
+    background: #CFFF0B;
+}
+
+.sideboxright {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 1100px; 
+    background: #CFFF0B;
+}
+
+.bottombox {
+    left: 0;
+    width: device-width;
+    height: 100px;
+    background: #CFFF0B;
 }
