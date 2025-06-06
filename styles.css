@@ -863,14 +863,12 @@
     width: 200px;
 }
 .cartTab .listCart .item img{
-    width: 100%; 
+    width: 50%; 
 }
 .cartTab .listCart .item{
-    display: grid; 
-    grid-template-columns: 70px 150px 50px 1fr;
-    gap: 10px;
-    text-align: center;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 .totalPrice {
     font-weight: 800;
