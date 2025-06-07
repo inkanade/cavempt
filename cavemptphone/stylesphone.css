@@ -790,5 +790,100 @@
   justify-content: center; /* horizontally center */
   align-items: center;     /* vertically center */
 }
+.product2cart {
+  position: absolute;
+  width: 80px;
+  height: 80px; 
+  z-index: 999;
+  top: 210px;
+  right: 100px;
+}
+.name2 {
+  color: #000000;
+  position: absolute;
+  right: -10px; /* or use left if it makes more sense visually */
+  top: 280px; 
+  font-size: 0.8rem;
+  width: 200px; 
+  font-family: "calibri";
+  z-index: 9999; /* this is ABOVE .cartpopup */
   
-  
+}
+.price2 {
+    color: #000000;
+    right: 70px;
+    position: absolute;
+    top: 300px; 
+    font-weight: 900;
+    font-size: 0.9rem;
+    width: 100px; 
+    font-family: "calibri";
+    z-index: 999;
+}
+
+.separationline2 {
+  position: absolute;
+  top: 320px;
+  right: 20px;
+  width: 130px;
+  border-bottom: 1px solid #888888;
+  z-index: 999;
+}
+  .totaltext2 {
+    color: #000000;
+    right: 70px;
+    position: absolute;
+    top: 340px; 
+    font-weight: 900;
+    font-size: 1.3rem;
+    width: 100px; 
+    font-family: "calibri";
+    z-index: 999;
+}
+.totalpricetext2 {
+    color: #000000;
+    right: -60px;
+    position: absolute;
+    top: 340px; 
+    font-weight: 900;
+    font-size: 1.3rem;
+    width: 100px; 
+    font-family: "calibri";
+    z-index: 999;
+}
+.checkoutbox2 {
+    background-color: #CFFF0B;
+  color: #000000;
+  position: absolute;
+  right: 0px;
+  top: 400px;
+  z-index: 999;
+  width: 60px;
+  height: 15px; 
+  font-weight: bold;
+  font-size: 0.78rem;
+  font-family: "calibri";
+  text-decoration: none;
+
+  display: flex;
+  justify-content: center; /* horizontally center */
+  align-items: center;     /* vertically center */
+}
+.closebox2 {
+    background-color: #ffffff;
+  color: #000000;
+  position: absolute;
+  right: 100px;
+  top: 400px;
+  z-index: 999;
+  width: 60px;
+  height: 15px; 
+  font-weight: bold;
+  font-size: 0.78rem;
+  font-family: "calibri";
+  text-decoration: none;
+
+  display: flex;
+  justify-content: center; /* horizontally center */
+  align-items: center;     /* vertically center */
+}
