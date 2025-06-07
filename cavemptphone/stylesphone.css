@@ -887,3 +887,90 @@
   justify-content: center; /* horizontally center */
   align-items: center;     /* vertically center */
 }
+/* Base form styles (mobile-first) */
+.row {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1.5rem;
+}
+
+.col-75,
+.col-50,
+.col-25 {
+  width: 100%;
+}
+
+.container {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+label {
+  display: block;
+  font-size: 0.9rem;
+  margin: 0.5rem 0 0.25rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="checkbox"] + label {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.icon-container {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.btncheckout {
+  width: 100%;
+  padding: 0.75rem;
+  background: #CFFF0B;
+  color: #000;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Stack the inner .row columns vertically on mobile */
+.row > .row {
+  flex-direction: column;
+}
+
+/* Bigger screens: side-by-side columns */
+@media (min-width: 600px) {
+  .row {
+    flex-direction: row;
+  }
+  .col-75 { width: 75%; }
+  .col-25 { width: 25%; }
+  .row > .row {
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .col-50 { width: 50%; }
+}
+
+/* Surface Pro 7 and up: constrain max width and center */
+@media (min-width: 1024px) {
+  .row {
+    max-width: 912px;    /* matches device width in portrait */
+    margin: 0 auto;
+  }
+}
