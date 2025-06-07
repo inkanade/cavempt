@@ -16,5 +16,5 @@ closeCartButton.addEventListener('click', () => {
 });
 
 document.querySelector(".checkOut").addEventListener("click", function () {
-    window.location.href = "checkout.html"; // Replace with your actual file name/path
+    window.location.href = "/cavemptphone/thankyouphone.html"; 
   });

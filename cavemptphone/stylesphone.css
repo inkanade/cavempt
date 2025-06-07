@@ -1,10 +1,23 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
 /* Basic navbar styles */
+.overallbg {
+  position: fixed;   /* so it sticks to the viewport */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #CFFF0B;
+  z-index: -1;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #CFFF0B;
-  padding: 0px 10px;
+  padding: 0px 0px;
   color: rgb(0, 0, 0);
   font-family: Arial, sans-serif;
 }
@@ -69,26 +82,16 @@
   
   .container {
   background-color: #CFFF0B;
-  padding: 10px;
+  padding: 0px;
 }
 
 .container .box {
   background: linear-gradient(#57B4F7, #FFFFFF);
   height: 900px;
-  border-radius: 0px;
+
 }
 
-  /* Example for navigation/menu */
-  nav {
-    font-size: 14px;
-    /* maybe stack menu items vertically */
-  }
-  
-  /* Example for images */
-  img {
-    max-width: 100%; /* scale images to container width */
-    height: auto;
-  }
+
   
   /* Buttons and clickable areas */
   button, a {
@@ -974,3 +977,38 @@ input[type="checkbox"] + label {
     margin: 0 auto;
   }
 }
+.thankyoutext {
+  position: absolute;
+  font-size: 3rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  z-index: 12;
+  font-family: "calibri";
+  left: 40px;
+  top: 200px;
+}
+.home-button {
+  position: absolute;
+  left: 320px;
+  top: 700px;
+  width: 300px;      
+  height: 70px;      
+  background-color: #CFFF0B;
+  border-radius: 5px;
+  
+  /* typography */
+  font-family: "Calibri", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  
+  /* center text */
+  display: flex;
+  justify-content: center;  /* horizontal centering */
+  align-items: center;      /* vertical centering */
+  
+  z-index: 12;
+}
+
