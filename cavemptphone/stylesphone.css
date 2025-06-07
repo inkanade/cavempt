@@ -461,4 +461,57 @@
     font-family: "calibri";
     text-decoration: none;
   }
+  .allproducts {
+    color: #000000;
+    left: 122px;
+    position: absolute;
+    top: 120px;
+    font-weight: bold; 
+    font-size: 2rem;
+    width: 490px; 
+    height: 200%; 
+    font-family: "calibri";
+  }
+  .square1 {
+    position: absolute;         
+  top: 77px;            
+  right: 10px;              
+  height: 30px;
+  width: 30px;
+  left: 58px;
+  background-color: #CFFF0B;
+  }
+  .square2 {
+    position: absolute;         
+  top: 104px;            
+  right: 10px;              
+  height: 53px;
+  width: 20px;
+  left: 40px;
+  background-color: #CFFF0B;
+  }
+  .square3 {
+    position: absolute;         
+  top: 190px;            
+  right: 27px;              
+  height: 20px;
+  width: 50px;
+  background-color: #CFFF0B;
+  }
+  .square4 {
+    position: absolute;         
+  top: 570px;            
+  right: 15px;              
+  height: 30px;
+  width: 30px;
+  background-color: #CFFF0B;
+  }
+  .square5 {
+    position: absolute;         
+  top: 870px;            
+  right: 15px;              
+  height: 105px;
+  width: 200px;
+  background-color: #CFFF0B;
+  }
   
