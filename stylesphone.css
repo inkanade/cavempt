@@ -232,7 +232,7 @@
   color: black;
   z-index: 12;
   font-family: "calibri";
-  right: 195px;
+  left: 70px;
   top: 200px;
 }
 .hometext2 {
@@ -243,8 +243,8 @@
   color: black;
   z-index: 12;
   font-family: "calibri";
-  left: 20px;
-  top:490px;
+  left: 0px;
+  top:500px;
 }
 .browsetext1 {
     position: absolute;
@@ -268,3 +268,197 @@
   top:530px;
 }
 
+.product1 {
+    position: absolute;
+    top: 230px;        
+    left: 30px;       
+    width: 150px;      
+    height: 150px;
+    border-radius: 10px;
+    z-index: 10;   
+  }
+  .product2 {
+    position: absolute;
+    top: 230px;        
+    right: 30px;       
+    width: 150px;      
+    height: 150px;
+    border-radius: 10px;
+    z-index: 10;   
+  }
+  .product3 {
+    position: absolute;
+    top: 430px;
+    left: 30px;       
+    width: 150px;      
+    height: 150px;
+    border-radius: 10px;
+    z-index: 10;   
+  }
+  .product4 {
+    position: absolute;
+    top: 430px;
+    right: 30px;       
+    width: 150px;      
+    height: 150px;
+    border-radius: 10px;
+    z-index: 10;   
+  }
+  .product5 {
+    position: absolute;
+    top: 630px;
+    left: 30px;       
+    width: 150px;      
+    height: 150px;
+    border-radius: 10px;
+    z-index: 10;   
+  }
+  .product6 {
+    position: absolute;
+    top: 630px;
+    right: 30px;       
+    width: 150px;      
+    height: 150px;
+    border-radius: 10px;
+    z-index: 10;   
+  }
+  
+  .product1name {
+    color: #000000;
+    left: 30px;
+    position: absolute;
+    top: 360px;
+    font-weight: 400; 
+    font-size: 0.9rem;
+    width: 490px;  
+    font-family: "calibri";
+    text-decoration: none;
+  }
+  .product1price {
+    color: #000000;
+    left: 67px;
+    position: absolute;
+    top: 380px;
+    font-weight: 900; 
+    font-size: 0.9rem;
+    width: 490px;  
+    height: 100%; 
+    font-family: "calibri";
+    text-decoration: none;
+  }
+  .product2name {
+    color: #000000;
+    left: 235px;
+    position: absolute;
+    top: 360px;
+    font-weight: 400; 
+    font-size: 0.9rem;
+    width: 490px;  
+    font-family: "calibri";
+    text-decoration: none;
+  }
+  .product2price {
+    color: #000000;
+    left: 247px;
+    position: absolute;
+    top: 380px;
+    font-weight: 900; 
+    font-size: 0.9rem;
+    width: 490px;  
+    height: 100%; 
+    font-family: "calibri";
+    text-decoration: none;
+  }
+  .product3name {
+    color: #000000;
+    left: 37px;
+    position: absolute;
+    top: 560px;
+    font-weight: 400; 
+    font-size: 0.9rem;
+    width: 490px;  
+    font-family: "calibri";
+    text-decoration: none;
+  }
+  .product3price {
+   color: #000000;
+    left: 67px;
+    position: absolute;
+    top: 580px;
+    font-weight: 900; 
+    font-size: 0.9rem;
+    width: 490px;  
+    height: 100%; 
+    font-family: "calibri";
+    text-decoration: none;
+  }
+  .product4name {
+    color: #000000;
+    left: 240px;
+    position: absolute;
+    top: 560px;
+    font-weight: 400; 
+    font-size: 0.9rem;
+    width: 490px;  
+    font-family: "calibri";
+    text-decoration: none;
+  }
+  .product4price {
+    color: #000000;
+    left: 252px;
+    position: absolute;
+    top: 580px;
+    font-weight: 900; 
+    font-size: 0.9rem;
+    width: 490px;  
+    height: 100%; 
+    font-family: "calibri";
+    text-decoration: none;
+  }
+  .product5name {
+    color: #000000;
+    left: 17px;
+    position: absolute;
+    top: 770px;
+    font-weight: 400; 
+    font-size: 0.9rem;
+    width: 490px;  
+    font-family: "calibri";
+    text-decoration: none;
+  }
+  .product5price {
+    color: #000000;
+    left: 70px;
+    position: absolute;
+    top: 790px;
+    font-weight: 900; 
+    font-size: 0.9rem;
+    width: 490px;  
+    height: 100%; 
+    font-family: "calibri";
+    text-decoration: none;
+  }
+  .product6name {
+     color: #000000;
+    left: 230px;
+    position: absolute;
+    top: 770px;
+    font-weight: 400; 
+    font-size: 0.9rem;
+    width: 490px;  
+    font-family: "calibri";
+    text-decoration: none;
+  }
+  .product6price {
+    color: #000000;
+    left: 247px;
+    position: absolute;
+    top: 790px;
+    font-weight: 900; 
+    font-size: 0.9rem;
+    width: 490px;  
+    height: 100%; 
+    font-family: "calibri";
+    text-decoration: none;
+  }
+  
